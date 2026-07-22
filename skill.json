@@ -1,0 +1,31 @@
+{
+  "name": "genpark-prompt-eval-benchmark-suite-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Comprehensive prompt evaluation and LLM output benchmarking suite.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "evaluation",
+    "benchmarking",
+    "prompts",
+    "llm-testing"
+  ],
+  "inputs": {
+    "prompt_variants": {
+      "type": "array"
+    },
+    "test_cases": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "scores": {
+      "type": "array"
+    },
+    "best_variant": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
